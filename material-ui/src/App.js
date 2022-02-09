@@ -19,8 +19,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TextField variant="filled" color="secondary" type="date" />
-        <TextField variant="filled" color="secondary" type="time" />
+        <TextField
+          variant="filled"
+          color="secondary"
+          label="Email"
+          placeholder="John@mail.com"
+        />
+
+        <TextField variant="outlined" color="secondary" type="date" />
+        <TextField variant="outlined" color="secondary" type="time" />
 
         <CheckboxTest />
         <ButtonGroup variant="contained" color="primary">
