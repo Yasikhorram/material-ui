@@ -4,27 +4,33 @@ import Button from "@mui/material/Button";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import CancelPresentationOutlinedIcon from "@mui/icons-material/CancelPresentationOutlined";
+import Checkbox from "@mui/material/Checkbox";
+import TextField from "@mui/material/TextField";
+
+function CheckboxTest() {
+  return (
+    <div>
+      <Checkbox />
+    </div>
+  );
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ButtonGroup>
+        <TextField />
+        <CheckboxTest />
+        <ButtonGroup variant="contained" color="primary">
           <Button
             startIcon={<AddShoppingCartIcon />}
-            size="large"
             onClick={() => alert("Added to shopping card.")}
-            variant="contained"
-            color="primary"
           >
             Testing MUI Button
           </Button>
           <Button
             startIcon={<CancelPresentationOutlinedIcon />}
-            size="large"
             onClick={() => alert("Removed from shopping card")}
-            variant="contained"
-            color="secondary"
           >
             Testing MUI Button
           </Button>

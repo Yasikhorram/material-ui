@@ -69,6 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Coomand I used for installing MUI icons
+### Command I used for installing MUI Button
+
+npm install @mui/material @emotion/react @emotion/styled
+Then imported:
+import Button from "@mui/material/Button";
+
+### Command I used for installing MUI icons
 
 npm install @mui/icons-material
+Then imported:
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
